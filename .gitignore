@@ -35,10 +35,10 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Model checkpoints (usually too large)
-checkpoints/
-*.pt
-*.pth
+# Model checkpoints will be tracked by Git LFS
+# checkpoints/
+# *.pt
+# *.pth
 *.ckpt
 *.bin
 
